@@ -24,7 +24,7 @@ public class KnightConfig {
   }
 
   @Bean
-  public PrintStream stream() {
+  public FakePrintStream stream() {
     return new FakePrintStream();
   }
 
